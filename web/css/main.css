@@ -1,0 +1,53 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#messagesContainer{
+    overflow-y: scroll;
+    width: 100%;
+    height: 80%;
+}
+
+#toolbar{
+    width: 100%;
+    height: 20%;
+}
+
+#messages{
+    padding : 0;
+}
+
+li{
+    width: 45%%;
+    list-style-type: none;
+    padding: 15px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 0px;
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-family: verdana;
+}
+
+#newMsg{
+    width: 95%;
+    height: 80%;
+}
+
+.thirdPartyMessage{
+    margin-right:35%;
+    background: #5095BD;
+}
+
+.ownMessage{
+    margin-left:35%;
+    background : #000000;
+}
+
+#userId{
+    width:95%;
+    margin-bottom: 5px;
+}
