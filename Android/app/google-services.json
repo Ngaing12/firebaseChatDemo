@@ -1,27 +1,27 @@
 {
   "project_info": {
     "project_number": "1009489227208",
-    "firebase_url": "https://qrioscat-248db.firebaseio.com",
-    "project_id": "qrioscat-248db",
+    "firebase_url": “———“,
+    "project_id": —,
     "storage_bucket": "qrioscat-248db.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1009489227208:android:7e7d30cb4ebd43cf",
+        "mobilesdk_app_id": “——“,
         "android_client_info": {
           "package_name": "com.irahavoi.qrioscat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1009489227208-5vlq2qdqbfuarj7nl05o9gjds3ljbv4n.apps.googleusercontent.com",
+          "client_id": “——“,
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDI5lpBBL9jMouy0fEJy2_gpn3BFRcuJzs"
+          "current_key": “———“
         }
       ],
       "services": {
@@ -39,20 +39,20 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1009489227208:android:b9ca82ce2bef6796",
+        "mobilesdk_app_id": “——“,
         "android_client_info": {
           "package_name": "com.chat.firebase.irahavoi.firebasechat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1009489227208-5vlq2qdqbfuarj7nl05o9gjds3ljbv4n.apps.googleusercontent.com",
+          "client_id": “——“,
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDI5lpBBL9jMouy0fEJy2_gpn3BFRcuJzs"
+          "current_key": “———“
         }
       ],
       "services": {
