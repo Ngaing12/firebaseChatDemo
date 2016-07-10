@@ -5,9 +5,9 @@ var messagesList = document.getElementById("messages"),
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyDhAhu5a_lVOtRkxfZEJDz4umKziUoadik",
-    authDomain: "qrioscat-248db.firebaseapp.com",
-    databaseURL: "https://qrioscat-248db.firebaseio.com",
+    apiKey: "------------------",
+    authDomain: "------------",
+    databaseURL: "------------",
     storageBucket: "qrioscat-248db.appspot.com",
 };
 
@@ -27,6 +27,8 @@ function handleSendNewMsg(){
             });
 }
 
+
+//List
 newMsg.onkeyup = function(evt) {
     evt = evt || window.event;
 
