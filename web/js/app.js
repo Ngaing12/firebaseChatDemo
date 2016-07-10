@@ -11,9 +11,10 @@ var config = {
     storageBucket: "YOUR_STORAGE_BUCKET",
 };
 
-//Listening for new messages from other clients:
 firebase.initializeApp(config);
-    firebase.database().ref('messages').on('child_added', function(snapshot, prevKey){
+
+//Listening for new messages from other clients:
+firebase.database().ref('messages').on('child_added', function(snapshot, prevKey){
     handleNewMsg(snapshot);
 });
 
@@ -28,7 +29,6 @@ function handleSendNewMsg(){
 }
 
 
-//List
 newMsg.onkeyup = function(evt) {
     evt = evt || window.event;
 
