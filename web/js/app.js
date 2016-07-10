@@ -5,10 +5,10 @@ var messagesList = document.getElementById("messages"),
 
 // Initialize Firebase
 var config = {
-    apiKey: "------------------",
-    authDomain: "------------",
-    databaseURL: "------------",
-    storageBucket: "qrioscat-248db.appspot.com",
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    databaseURL: "YOUR_DATABASE_URL",
+    storageBucket: "YOUR_STORAGE_BUCKET",
 };
 
 //Listening for new messages from other clients:
