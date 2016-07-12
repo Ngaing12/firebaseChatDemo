@@ -1,17 +1,18 @@
+
+(function(){
+
 var messagesList = document.getElementById("messages"),
     newMsg = document.getElementById("newMsg"),
     msgContainer = document.getElementById("messagesContainer"),
     userId = document.getElementById("userId");
 
 // Initialize Firebase
-var config = {
+firebase.initializeApp({
     apiKey: "YOUR_API_KEY",
     authDomain: "YOUR_AUTH_DOMAIN",
     databaseURL: "YOUR_DATABASE_URL",
     storageBucket: "YOUR_STORAGE_BUCKET",
-};
-
-firebase.initializeApp(config);
+});
 
 //Listening for new messages from other clients:
 firebase.database().ref('messages').on('child_added', function(snapshot, prevKey){
@@ -28,7 +29,6 @@ function handleSendNewMsg(){
             });
 }
 
-
 newMsg.onkeyup = function(evt) {
     evt = evt || window.event;
 
@@ -36,7 +36,6 @@ newMsg.onkeyup = function(evt) {
         handleSendNewMsg();
     }
 };
-
 
 function handleNewMsg(snapshot){
     appendMessage(snapshot.val());
@@ -55,5 +54,6 @@ function appendMessage(message) {
   if(message.author == userId.value){
     newMsg.value = '';
   }
-
 }
+
+})();
